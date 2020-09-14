@@ -1,0 +1,88 @@
+{
+  "aName": "Ahnafia",
+  "aJob": "an Artist, Designer & Traveller",
+  "aCountry": "Bangladesh",
+
+  "mySkills": "Paper crafting, Origami, Wood craft, Arabic callygraphy and Wall Painting",
+  "favouriteQuote": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ الرَّحْمَنِ الرَّحِيمِ مَالِكِ يَوْمِ الدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ‎‎‎",
+  "aboutMe": "I'm 22 years old creative An Artist based in Dhaka, specializing in Paper crafting, Origami, Wood craft, Arabic callygraphy and Wall Painting as my part of hobby. I build aesthetic, beautiful, and Geometric designs whhich are compareable in modern art standards.",
+
+  "aSkill": "Illustrator",
+  "aSkillP": "90%",
+  "bSkill": "Photoshop",
+  "bSkillP": "83%",
+  "cSkill": "C++",
+  "cSkillP": "82%",
+
+  "fLanguage": "English",
+  "fLanguageP": "70%",
+  "sLanguage": "Bangla",
+  "sLanguageP": "32%",
+  "tLanguage": "Arabic",
+  "tLanguageP": "45%",
+  "lLanguage": "Urdu",
+  "lLanguageP": "64%",
+  "mLanguage": "Turkish",
+  "mLanguageP": "51%",
+
+  "lFacebook": "https://www.facebook.com/aahnaf.19/",
+  "lTwitter": "https://twitter.com/AhnafurR",
+  "lInstagram": "https://www.instagram.com/muhammed_ahnaaf/",
+  "lLinkedin": "https://www.linkedin.com/in/mohammad-ahnafur-rahman-a27814153/",
+
+"happyClients": "150",
+"yearsExperience": "17",
+"awardWon": "14",
+"projectDone": "361",
+
+"yearEduFinal": "2011 - 2013",
+"degreeEduFinal": "Final",
+"aboutEduFinal": "Write about your Final degreee",
+"yearEduThird": "2008 - 2010",
+"degreeEduThird": "Doctoral",
+"aboutEduThird": "Write about your Doctoral degree",
+"yearEduSecond": "2005 - 2007",
+"degreeEduSecond": "Master",
+"aboutEduSecond": "Write about your Master degree",
+"yearEduFirst": "2000 - 2004",
+"degreeEduFirst": "Bachelor",
+"aboutEduFirst": "Write about your Bachelor degree",
+
+"timeExperienceA": "2016 - Present",
+"experienceA": "Lead Web Developer",
+"aboutExperienceA": "Write about your experience",
+
+"timeExperienceB": "2012 - 2015",
+"experienceB": "Lead Web Developer",
+"aboutExperienceB": "Write about your experience",
+
+"timeExperienceC": "2010 - 2011",
+"experienceC": "Lead Web Developer",
+"aboutExperienceC": "Write about your experience",
+
+"timeExperienceD": "2008 - 2009",
+"experienceD": "Lead Web Developer",
+"aboutExperienceD": "Write about your experience",
+
+
+"aService": "Web Design",
+"aboutServiceA": "I'm a boss level Web Designer. I've worked in so many website.",
+"bService": "Development",
+"aboutServiceB": "I'm very expart in Web Development. I have been working on developement since my high school perioud.",
+"cService": "Brand Building",
+"aboutServiceC": "I'm very expart in Brand Building. I have been working on it since my high school perioud.",
+"dService": "Clean Code",
+"aboutServiceD": "I'm a boss level programmer. I've worked in so many Applications and softwears.",
+"eService": "Mobile apps",
+"aboutServiceE": "I'm very skillful in iOS and Android app developement. I've been working in so many Apps.",
+"fService": "Retina Ready",
+"aboutServiceF": "Write about your service.",
+
+"Alink": "https://google.com",
+
+"contactLocation": "Dhaka, Bangladesh",
+"myMail": "ahnaf1998ff@gmail.com",
+"myPhone": "+8801633312573"
+
+
+}

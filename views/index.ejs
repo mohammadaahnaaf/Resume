@@ -12,7 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- TITLE OF SITE -->
-	<title>Nassar - Creative Resume / CV / Portfolio / vCard</title>
+	<title>Ahnafia - Creative Resume / CV / Portfolio / vCard</title>
 
 	<!-- favicon -->
 	<link id="favicon" rel="icon" type="image/png" href="assets/images/favicon.ico">
@@ -74,12 +74,12 @@
 										<img src="assets/images/me.jpg" class="author-img" alt="author">
 										<h1 class="fit__text">I'm <span id="typed"></span></h1>
 										<div id="typed-strings">
-											<span><%= aName %></span>
+											<span><%= bName %></span>
 											<span><%= aJob %></span>
 											<span>FROM <%= aCountry %></span>
 										</div>
 										<div class="more_info">
-											<a href="#" target="_self" class="bgColor">download CV</a>
+											<a href="<%= MyCV %>" target="_self" class="bgColor">download CV</a>
 											<a href="#contact" target="_self" class="goToSec">contact me</a>
 										</div>
 										<!--.more_info-->
@@ -104,7 +104,7 @@
 					<div class="mob-menu-content">
 						<div class="float-left">
 							<h3 class="menu-title">
-								<a href="#">John Doe</a>
+								<a href="#"><%= bName %></a>
 							</h3>
 						</div>
 						<div class="float-right">
@@ -223,23 +223,18 @@
 													</div>
 												</div>
 
-												<!-- Skill 2 -->
-												<div class="skill">
-													<span><%= bSkill %></span>
-													<span class="percentage"><%= bSkillP %> </span>
-													<div class="progress_bg">
-														<div class="progress_bar"></div>
-													</div>
-												</div>
+												<!-- New custom Skill -->
+												<% for (var i=0; i<newSkillItems.length; i++) { %>
 
-												<!-- Skill 3 -->
-												<div class="skill">
-													<span><%= cSkill %> </span>
-													<span class="percentage"><%= cSkillP %></span>
-													<div class="progress_bg">
-														<div class="progress_bar"></div>
+													<div class="skill">
+														<span><%= newSkillItems[i] %></span>
+														<span class="percentage"><%= newSkillJItems[i] %></span>
+														<div class="progress_bg">
+															<div class="progress_bar"></div>
+														</div>
 													</div>
-												</div>
+
+												<% } %>
 
 											</div>
 											<!--.skills-->
@@ -258,7 +253,7 @@
 											</h3>
 											<div class="skills">
 
-												<!-- Skill 1 -->
+												<!-- Skill Language 1 -->
 												<div class="skill">
 													<span><%= fLanguage %></span>
 													<span class="percentage"> <%= fLanguageP %> </span>
@@ -267,41 +262,17 @@
 													</div>
 												</div>
 
-												<!-- Skill 2 -->
-												<div class="skill">
-													<span> <%= sLanguage %> </span>
-													<span class="percentage"><%= sLanguageP %> </span>
-													<div class="progress_bg">
-														<div class="progress_bar"></div>
+												<!-- New custom Language Skill -->
+												<% for (var i=0; i<newLanguageItems.length; i++) { %>
+													<div class="skill">
+														<span><%= newLanguageItems[i] %> </span>
+														<span class="percentage"><%= newLanguagePItems[i] %> </span>
+														<div class="progress_bg">
+															<div class="progress_bar"></div>
+														</div>
 													</div>
-												</div>
+												<% } %>
 
-												<!-- Skill 3 -->
-												<div class="skill">
-													<span><%= tLanguage %> </span>
-													<span class="percentage"><%= tLanguageP %> </span>
-													<div class="progress_bg">
-														<div class="progress_bar"></div>
-													</div>
-												</div>
-
-												<!-- Skill 4 -->
-												<div class="skill">
-													<span><%= mLanguage %> </span>
-													<span class="percentage"><%= mLanguageP %> </span>
-													<div class="progress_bg">
-														<div class="progress_bar"></div>
-													</div>
-												</div>
-
-												<!-- Skill 5 -->
-												<div class="skill">
-													<span><%= lLanguage %> </span>
-													<span class="percentage"><%= lLanguageP %> </span>
-													<div class="progress_bg">
-														<div class="progress_bar"></div>
-													</div>
-												</div>
 
 											</div>
 											<!--.skills-->
@@ -374,7 +345,6 @@
 												<h4>John Doe</h4>
 												<h5>Client</h5>
 											</div>
-
 										</div>
 										<!--.owl-->
 									</div>
@@ -472,45 +442,18 @@
 											</h3>
 											<div class="resume">
 
-												<div class="item">
-													<div class="date">
-														<span><%= yearEduFinal %></span>
-													</div>
-													<div class="content">
-														<h4><%= degreeEduFinal %></h4>
-														<p><%= aboutEduFinal %></p>
-													</div>
-												</div>
+                       <% for (var i=0; i<newDegreeItems.length; i++) {%>
 
 												<div class="item">
 													<div class="date">
-														<span><%= yearEduThird %></span>
+														<span><%= yearEduItems[i] %></span>
 													</div>
 													<div class="content">
-														<h4><%= degreeEduThird %></h4>
-														<p><%= aboutEduThird %></p>
+														<h4><%= newDegreeItems[i] %></h4>
+														<p><%= aboutEduItems[i] %></p>
 													</div>
 												</div>
-
-												<div class="item">
-													<div class="date">
-														<span><%= yearEduSecond %></span>
-													</div>
-													<div class="content">
-														<h4><%= degreeEduSecond %></h4>
-														<p><%= aboutEduSecond %></p>
-													</div>
-												</div>
-
-												<div class="item">
-													<div class="date">
-														<span><%= yearEduFirst %></span>
-													</div>
-													<div class="content">
-														<h4><%= degreeEduFirst %></h4>
-														<p><%= aboutEduFirst %></p>
-													</div>
-												</div>
+                       <% } %>
 
 											</div>
 										</div>
@@ -530,45 +473,20 @@
 											</h3>
 											<div class="resume">
 
-												<div class="item">
-													<div class="date">
-														<span><%= timeExperienceA %></span>
-													</div>
-													<div class="content">
-														<h4><%= experienceA %></h4>
-														<p><%= aboutExperienceA %></p>
-													</div>
-												</div>
+
+                    <%  for(var i=0; i<newExperienceItems.length; i++) { %>
 
 												<div class="item">
 													<div class="date">
-														<span><%= timeExperienceB %></span>
+														<span><%= timeExperienceItems[i] %></span>
 													</div>
 													<div class="content">
-														<h4><%= experienceB %></h4>
-														<p><%= aboutExperienceB %></p>
+														<h4><%= newExperienceItems[i] %></h4>
+														<p><%= aboutExperienceItems[i] %></p>
 													</div>
 												</div>
+											<% } %>
 
-												<div class="item">
-													<div class="date">
-														<span><%= timeExperienceC %></span>
-													</div>
-													<div class="content">
-														<h4><%= experienceC %></h4>
-														<p><%= aboutExperienceC %></p>
-													</div>
-												</div>
-
-												<div class="item">
-													<div class="date">
-														<span><%= timeExperienceD %></span>
-													</div>
-													<div class="content">
-														<h4><%= experienceD %></h4>
-														<p><%= aboutExperienceD %></p>
-													</div>
-												</div>
 
 											</div>
 										</div>
@@ -595,121 +513,28 @@
 								<div class="container">
 									<div class="row">
 
-										<!--Service 1-->
-										<div class="col-xs-12 col-sm-6">
-											<div class="services">
-												<div class="item">
-													<div class="content">
-														<div class="font-icon">
-															<img src="assets/images/services/serv-1.png" alt="">
-														</div>
-														<div class="service_content">
-															<h3><%= aService %></h3>
-															<p><%= aboutServiceA %></p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
 
-										<!--Service 2-->
-										<div class="col-xs-12 col-sm-6">
-											<div class="services">
-												<div class="item">
-													<div class="content">
-														<div class="font-icon">
-															<img src="assets/images/services/serv-2.png" alt="">
-														</div>
-														<div class="service_content">
-															<h3><%= bService %></h3>
-															<p><%= aboutServiceB %></p>
+										<!--Custom Service -->
+									<%	for(var i=0; i<newServiesItems.length; i++) { %>
 
+											<div class="col-xs-12 col-sm-6">
+												<div class="services">
+													<div class="item">
+														<div class="content">
+															<div class="font-icon">
+																<img src="<%- newImageItems[i] -%>" alt="">
+															</div>
+															<div class="service_content">
+																<h3><%= newServiesItems[i] %></h3>
+																<p><%= aboutServiceItems[i] %></p>
+
+															</div>
 														</div>
 													</div>
 												</div>
 											</div>
-										</div>
 
-									</div>
-									<div class="row">
-
-										<!--Service 3-->
-										<div class="col-xs-12 col-sm-6">
-											<div class="services">
-												<div class="item">
-													<div class="content">
-														<div class="font-icon">
-															<img src="assets/images/services/serv-3.png" alt="">
-														</div>
-														<div class="service_content">
-															<h3><%= cService %></h3>
-															<p><%= aboutServiceC %></p>
-
-
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-
-										<!--Service 4-->
-										<div class="col-xs-12 col-sm-6">
-											<div class="services">
-												<div class="item">
-													<div class="content">
-														<div class="font-icon">
-															<img src="assets/images/services/serv-4.png" alt="">
-														</div>
-														<div class="service_content">
-															<h3><%= dService %></h3>
-															<p><%= aboutServiceD %></p>
-
-
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-
-									</div>
-									<div class="row">
-
-										<!--Service 5-->
-										<div class="col-xs-12 col-sm-6">
-											<div class="services">
-												<div class="item">
-													<div class="content">
-														<div class="font-icon">
-															<img src="assets/images/services/serv-5.png" alt="">
-														</div>
-														<div class="service_content">
-															<h3><%= eService %></h3>
-															<p><%= aboutServiceE %></p>
-
-
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-
-										<!--Service 6-->
-										<div class="col-xs-12 col-sm-6">
-											<div class="services">
-												<div class="item">
-													<div class="content">
-														<div class="font-icon">
-															<img src="assets/images/services/serv-6.png" alt="">
-														</div>
-														<div class="service_content">
-															<h3><%= fService %></h3>
-															<p><%= aboutServiceF %></p>
-
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
+									<% } %>
 
 									</div>
 
@@ -743,148 +568,31 @@
 
 										<div class="row grid portfolio">
 
-											<!--project 1 (Project popup)-->
-											<div class="col-xs-12 col-sm-6 item grid-item design">
-												<div class="project_content">
-													<div class="my__img">
-														<img src="assets/images/works/work-1.jpg" alt="" />
-													</div>
+											<!-- New custom Portfolio -->
+										  <% for (var i=0; i<newIndexItems.length; i++) { %>
 
-													<div class="info">
-														<div class="info-content">
-															<a class="popup-with-zoom-anim ajax_popup" href="<%= Alink %>>"
-																<h3>Project Popup</h3>
-																<p>design</p>
-																<div class="icon">
-																	<div class="wrapper">
-																		<i class="pe-7s-folder"></i>
-																	</div>
-																</div>
-															</a>
+												<div class="col-xs-12 col-sm-6 item grid-item logo">
+													<div class="project_content">
+														<div class="my__img">
+															<img src="<%- portfolioImageItems[i] -%>" alt="" />
 														</div>
-													</div>
 
-												</div>
-											</div>
-
-											<!--project 2 (Image Overlay)-->
-											<div class="col-xs-12 col-sm-6 item grid-item coding">
-												<div class="project_content">
-													<div class="my_img" data-mfp-src="assets/images/works/work-2.jpg">
-														<img src="assets/images/works/work-2.jpg" alt="" />
-													</div>
-
-													<div class="info">
-														<div class="info-content">
-															<a href="#" class="image_overlay">
-																<h3>Image Overlay</h3>
-																<p>coding</p>
-																<div class="icon">
-																	<div class="wrapper">
-																		<i class="pe-7s-photo"></i>
+														<div class="info">
+															<div class="info-content">
+																<a href="<%= newLinksItems[i] %>" target="_blank">
+																	<h3><%= newIndexItems[i] %></h3>
+																	<p><%= newDifItems[i] %></p>
+																	<div class="icon">
+																		<div class="wrapper">
+																			<i class="pe-7s-link"></i>
+																		</div>
 																	</div>
-																</div>
-															</a>
-														</div>
-													</div>
-
-												</div>
-											</div>
-
-											<!--project 3 (Youtube Video)-->
-											<div class="col-xs-12 col-sm-6 item grid-item design">
-												<div class="project_content">
-													<div class="my__img">
-														<img src="assets/images/works/work-3.jpg" alt="" />
-													</div>
-
-													<div class="info">
-														<div class="info-content">
-															<a href="https://www.youtube.com/watch?v=uQBL7pSAXR8" class="video-popup">
-																<h3>Youtube Video</h3>
-																<p>design</p>
-																<div class="icon">
-																	<div class="wrapper">
-																		<i class="pe-7s-film"></i>
-																	</div>
-																</div>
-															</a>
-														</div>
-													</div>
-
-												</div>
-											</div>
-
-											<!--project 4 (Vimeo Video)-->
-											<div class="col-xs-12 col-sm-6 item grid-item logo">
-												<div class="project_content">
-													<div class="my__img">
-														<img src="assets/images/works/work-4.jpg" alt="" />
-													</div>
-
-													<div class="info">
-														<div class="info-content">
-															<a href="https://vimeo.com/45830194" class="video-popup">
-																<h3>Vimeo Video</h3>
-																<p>logo</p>
-																<div class="icon">
-																	<div class="wrapper">
-																		<i class="pe-7s-film"></i>
-																	</div>
-																</div>
-															</a>
-														</div>
-													</div>
-
-												</div>
-											</div>
-
-											<!--project 5 (Sound Cloud)-->
-											<div class="col-xs-12 col-sm-6 item grid-item sound---cloud coding">
-												<div class="project_content">
-													<div class="my__img">
-														<img src="assets/images/works/work-6.jpg" alt="" />
-													</div>
-
-													<div class="info">
-														<div class="info-content">
-															<a href="https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F336799284&amp;show_artwork=true" class="video-popup sound---cloud-url">
-																<h3>Sound Cloud</h3>
-																<p>coding</p>
-																<div class="icon">
-																	<div class="wrapper">
-																		<i class="pe-7s-volume"></i>
-																	</div>
-																</div>
-															</a>
+																</a>
+															</div>
 														</div>
 													</div>
 												</div>
-											</div>
-
-											<!--project 6 (open url)-->
-											<div class="col-xs-12 col-sm-6 item grid-item logo">
-												<div class="project_content">
-													<div class="my__img">
-														<img src="assets/images/works/work-5.jpg" alt="" />
-													</div>
-
-													<div class="info">
-														<div class="info-content">
-															<a href="http://www.google.com/" target="_blank">
-																<h3>Project website</h3>
-																<p>logo</p>
-																<div class="icon">
-																	<div class="wrapper">
-																		<i class="pe-7s-link"></i>
-																	</div>
-																</div>
-															</a>
-														</div>
-													</div>
-
-												</div>
-											</div>
+										  <% } %>
 
 										</div>
 										<!--.row-->

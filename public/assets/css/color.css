@@ -7,7 +7,7 @@
 	.cats a,
 	.home_type #typed,
 	.social-icons a:hover,
-	.mob-menu .menu-title,
+
 	.resume .date span,
 	.testimonials .arrows span:hover,
 	.services .font-icon i,
@@ -30,7 +30,10 @@
 	.comment-reply a,
 	.comment-reply span,
 	.comment-content a {
-	    color: #e64980 !important;
+	    color: #28df99 !important;
+	}
+	.mob-menu .menu-title {
+		color: #335d2d
 	}
 
 	.sec_title h2:after,
@@ -61,7 +64,7 @@
 	input[type="submit"]:before,
 	.contact .contact_form .submit:hover,
 	header.entry-header:after {
-	    background-color: #e64980;
+	    background-color: #28df99;
 	}
 
 	input[type="submit"].btn,
@@ -79,18 +82,18 @@
 	form.post-password-form input[type="password"]:focus,
 	form.post-password-form input[type="submit"]:active,
 	form.post-password-form input[type="submit"]:focus {
-	    border-color: #e64980;
+	    border-color: #28df99;
 	}
 
 	.resume .date span:before,
 	.entry-footer .tags-links a:hover:before {
-		border-right-color: #e64980;
+		border-right-color: #28df99;
 	}
 
 	.menu_list .home-item svg:hover {
-    	fill: #e64980;
+    	fill: #28df99;
 	}
 
 	g.Header {
-    	stroke: #e64980;
+    	stroke: #28df99;
 	}

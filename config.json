@@ -1,7 +1,15 @@
 {
   "aName": "Ahnafia",
+  "bName": "Ahnafia",
   "aJob": "an Artist, Designer & Traveller",
   "aCountry": "Bangladesh",
+
+      "newIndexItems":["Project Popup", "Image Overlay", "Youtube Video", "Vimeo Video", "Sound Cloud", "Project website", "Project Website 2"],
+      "newDifItems":["design", "coding", "design", "logo", "coding", "logo", "Drawing"],
+      "portfolioImageItems": ["assets/images/works/work-1.jpg", "assets/images/works/work-2.jpg", "assets/images/works/work-3.jpg", "assets/images/works/work-4.jpg", "assets/images/works/work-5.jpg", "assets/images/works/work-6.jpg", "assets/images/works/work-6.jpg"],
+      "newLinksItems":["https://google.com", "https://www.youtube.com/watch?v=uQBL7pSAXR8", "https://vimeo.com/45830194","https://w.soundcloud.com/player/?visual=true&amp;url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F336799284&amp;show_artwork=true", "http://www.google.com/", "https://www.youtube.com/watch?v=kqUZztlQkpw"],
+
+  "MyCV": "https://futureislam.files.wordpress.com/2011/10/arabic-english-dictionary-the-hans-wehr-dictionary-of-modern-written-arabic.pdf",
 
   "mySkills": "Paper crafting, Origami, Wood craft, Arabic callygraphy and Wall Painting",
   "favouriteQuote": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ الرَّحْمَنِ الرَّحِيمِ مَالِكِ يَوْمِ الدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ‎‎‎",
@@ -9,21 +17,16 @@
 
   "aSkill": "Illustrator",
   "aSkillP": "90%",
-  "bSkill": "Photoshop",
-  "bSkillP": "83%",
-  "cSkill": "C++",
-  "cSkillP": "82%",
+
+  "newSkillItems": ["Photoshop", "C++", "JavaScript", "HTML", "SQL", "Python"],
+  "newSkillJItems": ["83%", "82%", "35%", "80%", "77%", "70%"],
 
   "fLanguage": "English",
   "fLanguageP": "70%",
-  "sLanguage": "Bangla",
-  "sLanguageP": "32%",
-  "tLanguage": "Arabic",
-  "tLanguageP": "45%",
-  "lLanguage": "Urdu",
-  "lLanguageP": "64%",
-  "mLanguage": "Turkish",
-  "mLanguageP": "51%",
+
+  "newLanguageItems": ["Bangla", "Arabic", "Urdu", "Persian", "Turkish", "Russian", "French"],
+  "newLanguagePItems": ["90%", "45%", "64%", "51%", "40%", "38%", "20%"],
+
 
   "lFacebook": "https://www.facebook.com/aahnaf.19/",
   "lTwitter": "https://twitter.com/AhnafurR",
@@ -35,50 +38,20 @@
 "awardWon": "14",
 "projectDone": "361",
 
-"yearEduFinal": "2011 - 2013",
-"degreeEduFinal": "Final",
-"aboutEduFinal": "Write about your Final degreee",
-"yearEduThird": "2008 - 2010",
-"degreeEduThird": "Doctoral",
-"aboutEduThird": "Write about your Doctoral degree",
-"yearEduSecond": "2005 - 2007",
-"degreeEduSecond": "Master",
-"aboutEduSecond": "Write about your Master degree",
-"yearEduFirst": "2000 - 2004",
-"degreeEduFirst": "Bachelor",
-"aboutEduFirst": "Write about your Bachelor degree",
-
-"timeExperienceA": "2016 - Present",
-"experienceA": "Lead Web Developer",
-"aboutExperienceA": "Write about your experience",
-
-"timeExperienceB": "2012 - 2015",
-"experienceB": "Lead Web Developer",
-"aboutExperienceB": "Write about your experience",
-
-"timeExperienceC": "2010 - 2011",
-"experienceC": "Lead Web Developer",
-"aboutExperienceC": "Write about your experience",
-
-"timeExperienceD": "2008 - 2009",
-"experienceD": "Lead Web Developer",
-"aboutExperienceD": "Write about your experience",
+"yearEduItems": ["2011 - 2013", "2008 - 2010", "2005 - 2007", "2000 - 2004"],
+"newDegreeItems": ["Final", "Doctoral", "Master", "Bachelors"],
+"aboutEduItems": ["Write about your Final degreee", "Write about your Doctoral degree", "Write about your Master degree", "Graduated on ECE in the University of Science Trade And Technology."],
 
 
-"aService": "Web Design",
-"aboutServiceA": "I'm a boss level Web Designer. I've worked in so many website.",
-"bService": "Development",
-"aboutServiceB": "I'm very expart in Web Development. I have been working on developement since my high school perioud.",
-"cService": "Brand Building",
-"aboutServiceC": "I'm very expart in Brand Building. I have been working on it since my high school perioud.",
-"dService": "Clean Code",
-"aboutServiceD": "I'm a boss level programmer. I've worked in so many Applications and softwears.",
-"eService": "Mobile apps",
-"aboutServiceE": "I'm very skillful in iOS and Android app developement. I've been working in so many Apps.",
-"fService": "Retina Ready",
-"aboutServiceF": "Write about your service.",
+"timeExperienceItems": ["2016 - Present", "2012 - 2015", "2010 - 2011", "2008 - 2009"],
+"newExperienceItems": ["Lead Web Developer", "Lead Web Developer", "Lead Web Developer", "Lead Web Developer"],
+"aboutExperienceItems": ["Write about your experience", "Write about your experience", "Write about your experience", "Write about your experience"],
 
-"Alink": "https://google.com",
+"newServiesItems": ["Web Design", "Development", "Brand Building", "Clean Code", "Mobile apps", "Retina Ready"],
+"aboutServiceItems": ["I'm a boss level Web Designer. I've worked in so many website.", "I'm very expart in Web Development. I have been working on developement since my high school perioud.", "I'm very expart in Brand Building. I have been working on it since my high school perioud.", "I'm a boss level programmer. I've worked in so many Applications and softwears.", "I'm very skillful in iOS and Android app developement. I've been working in so many Apps.", "Write about your service."],
+"newImageItems": ["assets/images/services/serv-1.png", "assets/images/services/serv-2.png", "assets/images/services/serv-3.png", "assets/images/services/serv-4.png", "assets/images/services/serv-5.png", "assets/images/services/serv-6.png"],
+
+
 
 "contactLocation": "Dhaka, Bangladesh",
 "myMail": "ahnaf1998ff@gmail.com",
